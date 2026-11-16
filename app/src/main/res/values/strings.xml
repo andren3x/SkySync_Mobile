@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SkySkync_Mobile</string>
+    <string name="btn_Entrar">Entrar</string>
+    <string name="btn_entrarSemConta">Continuar sem conta</string>
+    <string name="tv_boasVindas">A tua viagem, do voo até ao embarque</string>
+    <string name="tv_SkySync">SkySync</string>
+    <string name="tv_semConta">Ainda não tens conta?</string>
+    <string name="tv_link">Criar Conta\n</string>
 </resources>
