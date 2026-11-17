@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 public class SingletonGestorSkySync {
 
+    // Lista de voos
     private ArrayList<Voo> voos;
 
+    // 1.
     // static não deixa ser instânciado
     private static SingletonGestorSkySync instance;
-
 
     // torna num Singleton
     // garante uma unica instancia
@@ -19,10 +20,26 @@ public class SingletonGestorSkySync {
         return instance;
     }
 
+            //2.CONTRUTORES
+
     // construtor, ao ser private impede que se faça new SingletonGestorLivros();
     private SingletonGestorSkySync(){
         voos = new ArrayList<>();
         gerarVoos();
+    }
+
+            // 3.COPIAS
+
+    //devolve-se uma cópia, assim fora da classe não altera direta a lista de livros mas copia
+    public ArrayList<Voo> getVoos() {
+        return new ArrayList<>(voos);
+    }
+
+    public Voo getVoos(int id) {
+        for (Voo voo : voos)
+            if (voo.getId() == id)
+                return voo;
+        return null;
     }
 
     // Dados de exemplo (mais tarde vêm da API)
@@ -37,16 +54,5 @@ public class SingletonGestorSkySync {
                 89.99, "agendado", null, "OPO", "FCO"));
     }
 
-    //devolve-se uma cópia, assim fora da classe não altera direta a lista de livros mas copia
-    public ArrayList<Voo> getVoos() {
-        return new ArrayList<>(voos);
-    }
-
-    public Voo getVoos(int id) {
-        for (Voo voo : voos)
-            if (voo.getId() == id)
-                return voo;
-        return null;
-    }
 
 }
