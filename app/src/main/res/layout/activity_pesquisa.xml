@@ -25,7 +25,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Origem" />
+                android:text="@string/origem" />
 
             <EditText
                 android:id="@+id/etOrigem"
@@ -73,7 +73,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Data" />
+                android:text="@string/data" />
 
             <EditText
                 android:id="@+id/etData"
@@ -95,7 +95,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Passageiros" />
+                android:text="@string/passageiros" />
 
             <EditText
                 android:id="@+id/etPassageiros"
@@ -111,7 +111,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Pesquisar" />
+        android:text="@string/btn_pesquisar" />
 
     <TextView
         android:id="@+id/tvResultados"

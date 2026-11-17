@@ -8,4 +8,8 @@
     <string name="tv_link">Criar Conta</string>
     <string name="tv_email">Email</string>
     <string name="tv_password">Password</string>
+    <string name="origem">Origem</string>
+    <string name="data">Data</string>
+    <string name="passageiros">Passageiros</string>
+    <string name="btn_pesquisar">Pesquisar</string>
 </resources>
