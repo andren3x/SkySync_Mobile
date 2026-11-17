@@ -5,5 +5,7 @@
     <string name="tv_boasVindas">A tua viagem, do voo até ao embarque</string>
     <string name="tv_SkySync">SkySync</string>
     <string name="tv_semConta">Ainda não tens conta?</string>
-    <string name="tv_link">Criar Conta\n</string>
+    <string name="tv_link">Criar Conta</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_password">Password</string>
 </resources>
