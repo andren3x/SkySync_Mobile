@@ -6,4 +6,42 @@
     </style>
 
     <style name="Theme.SkySkync_Mobile" parent="Base.Theme.SkySkync_Mobile" />
+
+
+
+    <!-- Cartão (voo, bilhete, caixas do detalhe) -->
+    <style name="Cartao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">#F2F2F2</item>
+    </style>
+
+    <!-- Etiqueta do estado ("agendado", "atrasado"...) -->
+    <style name="Etiqueta">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:background">#DDDDDD</item>
+    </style>
+
+    <!-- Horas grandes (08:00 / 09:00) -->
+    <style name="HoraGrande">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Texto pequeno (rota) -->
+    <style name="TextoPequeno">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+
 </resources>
