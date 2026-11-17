@@ -43,11 +43,13 @@ public class PesquisaActivity extends AppCompatActivity {
     }
 
     private void configurarRecyclerView() {
-        // obter voos
+
+        // Ir buscar os voos ao singleton
         voos = SingletonGestorSkySync.getInstance().getVoos();
 
         // ação do clique: abrir o detalhe do voo e enviar o ID
         listener = new ListaVoosRecyclerAdaptador.OnVooClickListener() {
+
             @Override
             public void onVooClick(Voo voo) {
                 // dentro de uma classe anónima o "this" não é a Activity,
@@ -58,7 +60,7 @@ public class PesquisaActivity extends AppCompatActivity {
             }
         };
 
-        // inicializar o adaptador com a lista e o listener
+        // Cria/inicializar o adaptador com a lista e o listener
         adaptador = new ListaVoosRecyclerAdaptador(voos, listener);
         // lista (se fosse grelha usava-se GridLayoutManager)
         binding.rvVoos.setLayoutManager(new LinearLayoutManager(this));

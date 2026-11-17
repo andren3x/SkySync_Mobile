@@ -129,4 +129,7 @@
         android:layout_marginTop="8dp"
         tools:listitem="@layout/item_voo" />
 
+        <!-- tools:listitem="@layout/item_voo" este código é uma pré visualização
+        de como vão ser apresentados os cards, é ignorado após a app começar a correr-->
+
 </LinearLayout>
