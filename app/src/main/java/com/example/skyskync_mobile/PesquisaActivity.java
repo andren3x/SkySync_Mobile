@@ -40,11 +40,9 @@ public class PesquisaActivity extends AppCompatActivity {
 
         ArrayList<Voo> voos = SingletonGestorSkySync.getInstance().getVoos();
 
-        RecyclerView rvVoos = binding.rvVoos;
-        rvVoos.setLayoutManager(new LinearLayoutManager(this));
-        rvVoos.setAdapter(new VooRecyclerAdaptador(voos));
+        binding.rvVoos.setLayoutManager(new LinearLayoutManager(this));
+        binding.rvVoos.setAdapter(new VooRecyclerAdaptador(voos));
 
-        TextView tvResultados = binding.tvResultados;
-        tvResultados.setText(voos.size() + " voos encontrados · preço por passageiro");
+        binding.tvResultados.setText(voos.size() + " voos encontrados · preço por passageiro");
     }
 }
