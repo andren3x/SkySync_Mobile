@@ -7,7 +7,7 @@
 
     <style name="Theme.SkySkync_Mobile" parent="Base.Theme.SkySkync_Mobile" />
 
-    
+
 
     <!-- Cartão (voo, bilhete, caixas do detalhe) -->
     <style name="Cartao">
