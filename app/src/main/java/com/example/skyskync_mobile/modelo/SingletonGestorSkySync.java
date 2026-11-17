@@ -8,12 +8,11 @@ public class SingletonGestorSkySync {
     private ArrayList<Voo> voos;
 
     // 1.
-    // static não deixa ser instânciado
+    // static: não deixa ser instânciado  e é uma instância partilhada por toda a app
     private static SingletonGestorSkySync instance;
 
-    // torna num Singleton
-    // garante uma unica instancia
-    // synchronized é thread-safe
+
+    // Garante uma unica instância (synchronized é thread-safe)
     public static synchronized SingletonGestorSkySync getInstance(){
         if(instance == null)
             instance = new SingletonGestorSkySync();
@@ -22,7 +21,7 @@ public class SingletonGestorSkySync {
 
             //2.CONTRUTORES
 
-    // construtor, ao ser private impede que se faça new SingletonGestorLivros();
+    // Construtor, ao ser private impede que se faça new SingletonGestorLivros();
     private SingletonGestorSkySync(){
         voos = new ArrayList<>();
         gerarVoos();
@@ -30,7 +29,7 @@ public class SingletonGestorSkySync {
 
             // 3.COPIAS
 
-    //devolve-se uma cópia, assim fora da classe não altera direta a lista de livros mas copia
+    //Devolve uma cópia, assim fora da classe não altera diretamente a lista;
     public ArrayList<Voo> getVoos() {
         return new ArrayList<>(voos);
     }
