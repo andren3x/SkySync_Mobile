@@ -6,6 +6,11 @@ android {
     namespace = "com.example.skyskync_mobile"
     compileSdk {
         version = release(37)
+
+        // Ativação do View Binding
+        buildFeatures {
+            viewBinding = true
+        }
     }
 
     defaultConfig {
@@ -40,4 +45,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)
+    // Biblioteca das RecyclerViews
+    implementation ("androidx.recyclerview:recyclerview:1.4.0")
 }
