@@ -12,4 +12,9 @@
     <string name="data">Data</string>
     <string name="passageiros">Passageiros</string>
     <string name="btn_pesquisar">Pesquisar</string>
+    <string name="sem_email">Sem email</string>
+    <string name="perfil">Perfil</string>
+    <string name="pesquisar_voos">Pesquisar Voos</string>
+    <string name="partidas_e_chegadas">Partidas e Chegadas</string>
+    <string name="os_meus_bilhetes">Os meus bilhetes</string>
 </resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"> <!-- para colocar barra navegacao na esquerda-->
+
+    <group android:checkableBehavior ="single">
+        <item
+            android:icon="@drawable/ic_action_perfil"
+            android:id="@+id/navPerfil"
+            android:title="@string/perfil" />
+        <item
+            android:icon="@drawable/ic_action_pesquisa"
+            android:id="@+id/navPesquisa"
+            android:title="@string/pesquisar_voos" />
+        <item
+            android:icon="@drawable/ic_action_voo"
+            android:id="@+id/navPartidasChegadas"
+            android:title="@string/partidas_e_chegadas" />
+        <item
+            android:icon="@drawable/ic_action_bilhete"
+            android:id="@+id/navBilhetes"
+            android:title="@string/os_meus_bilhetes" />
+    </group>
+</menu>
