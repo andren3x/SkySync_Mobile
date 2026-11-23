@@ -17,4 +17,6 @@
     <string name="pesquisar_voos">Pesquisar Voos</string>
     <string name="partidas_e_chegadas">Partidas e Chegadas</string>
     <string name="os_meus_bilhetes">Os meus bilhetes</string>
+    <string name="menu_abrir">menu_abrir</string>
+    <string name="menu_fechar">Fechar</string>
 </resources>

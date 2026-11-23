@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MenuMainActivity.class);
         intent.putExtra("EMAIL", email);
         startActivity(intent);
-
+        finish();
 
     }
 
