@@ -7,6 +7,9 @@ public class Bilhete {
     private boolean check_in;
     private double preco_total;
 
+    //Provavelmente o campo passageiro_id e data_check_in
+    //não vão ser utilizados - Ainda para avaliar
+
     public Bilhete(int id, int passageiro_id, int voo_id, String numero, String estado, String data_compra, String data_check_in, boolean check_in, double preco_total)
     {
         this.id = id;
@@ -24,24 +27,12 @@ public class Bilhete {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public int getPassageiro_id() {
         return passageiro_id;
     }
 
-    public void setPassageiro_id(int passageiro_id) {
-        this.passageiro_id = passageiro_id;
-    }
-
     public int getVoo_id() {
         return voo_id;
-    }
-
-    public void setVoo_id(int voo_id) {
-        this.voo_id = voo_id;
     }
 
     public String getNumero() {
