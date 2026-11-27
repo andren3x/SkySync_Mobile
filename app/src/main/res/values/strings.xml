@@ -19,4 +19,6 @@
     <string name="os_meus_bilhetes">Os meus bilhetes</string>
     <string name="menu_abrir">menu_abrir</string>
     <string name="menu_fechar">Fechar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
