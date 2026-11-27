@@ -22,23 +22,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
             android:name=".RegistoActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".PesquisaActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
             android:name=".DetalheVooActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".PartidaChegadaActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
@@ -51,10 +39,6 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".DetalheBilheteActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".PerfilActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
