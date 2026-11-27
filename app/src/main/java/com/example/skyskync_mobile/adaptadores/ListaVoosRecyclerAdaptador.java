@@ -16,7 +16,7 @@ public class ListaVoosRecyclerAdaptador extends RecyclerView.Adapter<ListaVoosRe
 
     private ArrayList<Voo> voos;
 
-    // 1º - Interface: quem quiser saber do clique num voo implementa este método.
+    // 1º - Interface: quem quiser saber do clique num voo implem   enta este método.
     // O adaptador só avisa; quem decide a ação é a Activity.
     public interface OnVooClickListener {
         void onVooClick(Voo v);

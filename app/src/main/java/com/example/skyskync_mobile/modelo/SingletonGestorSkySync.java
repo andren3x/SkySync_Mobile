@@ -8,7 +8,7 @@ public class SingletonGestorSkySync {
     private ArrayList<Voo> voos;
 
     // 1.
-    // static: não deixa ser instânciado  e é uma instância partilhada por toda a app
+    // tatic: não deixa ser instânciado  e é uma instância partilhada por toda a app
     private static SingletonGestorSkySync instance;
 
 
