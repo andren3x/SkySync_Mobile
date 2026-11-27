@@ -7,7 +7,11 @@
 
     <style name="Theme.SkySkync_Mobile" parent="Base.Theme.SkySkync_Mobile" />
 
-
+    <!-- tema da seta de voltar para trás, implementado no androidManifest -->
+    <style name="Theme.SkySkync_Mobile.WithActionBar"
+        parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+    </style>
 
     <!-- Cartão (voo, bilhete, caixas do detalhe) -->
     <style name="Cartao">

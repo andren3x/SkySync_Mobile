@@ -21,10 +21,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- android:parentActivityName=".LoginActivity"   -> para onde volta
+            android:theme="@style/Theme.SkySkync_Mobile.WithActionBar"/> -> para colocar o botao retroceder definido nos themes -->
         <activity
             android:name=".RegistoActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/Theme.SkySkync_Mobile.WithActionBar"/>
         <activity
             android:name=".DetalheVooActivity"
             android:exported="false"

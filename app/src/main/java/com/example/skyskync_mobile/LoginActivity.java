@@ -70,4 +70,11 @@ public class LoginActivity extends AppCompatActivity {
             return false;
         return password.length() >= 4;
     }
+
+
+    public void onClickRegistar(View view) {
+
+        Intent intent = new Intent(this, RegistoActivity.class);
+        startActivity(intent);
+    }
 }

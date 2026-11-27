@@ -104,7 +104,10 @@
         android:layout_height="wrap_content"
         android:text="@string/tv_link"
         android:textStyle="bold"
-        android:layout_marginStart="5dp"/>
+        android:layout_marginStart="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickRegistar" />
 
     </LinearLayout>
 

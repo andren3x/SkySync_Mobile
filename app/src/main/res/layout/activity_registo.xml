@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="nome"
+        android:hint="nome"
         />
 
     <TextView
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="exemplo@email.com" />
+        android:hint="exemplo@email.com" />
 
     <TextView
         android:layout_width="match_parent"
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="************" />
+        android:hint="************" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -92,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
-                    android:text="123456789" />
+                    android:hint="123456789" />
         </LinearLayout>
 
     </LinearLayout>
@@ -138,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="text"
-                android:text="966666666" />
+                android:hint="966666666" />
         </LinearLayout>
 
     </LinearLayout>
@@ -152,12 +152,7 @@
         android:id="@+id/btnCriarConta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Criar conta" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Já tens conta? Entrar"
-        android:textAlignment="center"/>
+        android:text="Criar conta"
+        android:onClick="onClickCriarConta"/>
 
 </LinearLayout>
