@@ -24,7 +24,7 @@ public class SingletonGestorSkySync {
     // Construtor, ao ser private impede que se faça new SingletonGestorLivros();
     private SingletonGestorSkySync(){
         voos = new ArrayList<>();
-        gerarVoos();
+//        gerarVoos();
     }
 
             // 3.COPIAS
@@ -42,16 +42,16 @@ public class SingletonGestorSkySync {
     }
 
     // Dados de exemplo (mais tarde vêm da API)
-    private void gerarVoos() {
-        voos.add(new Voo(1, "TP1940", 1, 5, 4,
-                "2026-10-29 08:00:00", "2026-10-29 09:00:00",
-                "2026-10-29 08:00:00", "2026-10-29 09:00:00",
-                49.99, "agendado", "A12", "LIS", "OPO"));
-        voos.add(new Voo(2, "TP1700", 1, 4, 2,
-                "2026-10-29 10:00:00", "2026-10-29 13:30:00",
-                "2026-10-29 10:00:00", "2026-10-29 13:30:00",
-                89.99, "agendado", null, "OPO", "FCO"));
-    }
+//    private void gerarVoos() {
+//        voos.add(new Voo(1, "TP1940", 1, 5, 4,
+//                "2026-10-29 08:00:00", "2026-10-29 09:00:00",
+//                "2026-10-29 08:00:00", "2026-10-29 09:00:00",
+//                49.99, "agendado", "A12", "LIS", "OPO"));
+//        voos.add(new Voo(2, "TP1700", 1, 4, 2,
+//                "2026-10-29 10:00:00", "2026-10-29 13:30:00",
+//                "2026-10-29 10:00:00", "2026-10-29 13:30:00",
+//                89.99, "agendado", null, "OPO", "FCO"));
+//    }
 
 
 }
