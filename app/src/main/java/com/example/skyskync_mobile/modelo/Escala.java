@@ -21,39 +21,23 @@ public class Escala {
         return id;
     }
 
-
-
     public int getVoo_id() {
         return voo_id;
     }
 
-    
     public int getAeroporto_id() {
         return aeroporto_id;
     }
 
-
     public int getOrdem() {
         return ordem;
-    }
-
-    public void setOrdem(int ordem) {
-        this.ordem = ordem;
     }
 
     public String getHora_chegada() {
         return hora_chegada;
     }
 
-    public void setHora_chegada(String hora_chegada) {
-        this.hora_chegada = hora_chegada;
-    }
-
     public String getHora_partida() {
         return hora_partida;
-    }
-
-    public void setHora_partida(String hora_partida) {
-        this.hora_partida = hora_partida;
     }
 }
