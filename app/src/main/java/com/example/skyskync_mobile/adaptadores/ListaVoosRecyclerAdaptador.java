@@ -67,10 +67,10 @@ public class ListaVoosRecyclerAdaptador extends RecyclerView.Adapter<ListaVoosRe
         public void bind(Voo voo, OnVooClickListener listener) {
             binding.tvNumero.setText(voo.getNumero());
             binding.tvEstado.setText(voo.getEstado());
-            binding.tvPartida.setText(voo.getHoraPartida().substring(11, 16));   // "08:00"
-            binding.tvChegada.setText(voo.getHoraChegada().substring(11, 16));   // "09:00"
+            binding.tvPartida.setText(voo.getHora_partida().substring(11, 16));   // "08:00"
+            binding.tvChegada.setText(voo.getHora_chegada().substring(11, 16));   // "09:00"
             binding.tvRota.setText(voo.getOrigem() + " → " + voo.getDestino());
-            binding.tvPreco.setText(String.format(new Locale("pt", "PT"), "%.2f €", voo.getPrecoBase()));
+            binding.tvPreco.setText(String.format(new Locale("pt", "PT"), "%.2f €", voo.getPreco_base()));
 
             // 4º - Clique: avisa quem estiver a ouvir
             binding.getRoot().setOnClickListener(v -> listener.onVooClick(voo));
